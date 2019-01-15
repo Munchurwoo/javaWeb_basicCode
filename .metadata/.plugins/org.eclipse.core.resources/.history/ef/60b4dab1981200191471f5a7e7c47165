@@ -1,0 +1,9 @@
+package github_testCode;
+
+public class testCode {
+	public static void main(String[] args) {
+		System.out.printf("%f \n", 0.123);
+		System.out.printf("%.1f \n", 0.123);
+		System.out.printf("%.2f \n", 0.123);
+	}
+}

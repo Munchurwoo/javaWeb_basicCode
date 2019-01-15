@@ -1,0 +1,10 @@
+package github_testCode;
+import java.util.Scanner;
+
+public class testCode {
+	public static void main(String[] args) {
+		
+		String name[] = {"πÆ√∂øÏ","±Ë∏Ìº∑","±Ë¿Œº∑"};
+		System.out.println(name[1]);
+	}
+}

@@ -1,0 +1,13 @@
+package github_testCode;
+import java.util.Scanner;
+
+public class testCode {
+	public static void main(String[] args) {
+		
+		String score[] = new String[2];
+		score[0] = "Ω≈¿‘";
+		System.out.println(score[0]);
+		String name[] = {"πÆ√∂øÏ","±Ë∏Ìº∑","±Ë¿Œº∑"};
+		System.out.println(name[1]);
+	}
+}

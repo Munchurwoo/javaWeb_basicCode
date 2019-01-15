@@ -1,0 +1,51 @@
+package examples;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class LifeCycleServlet
+ */
+@WebServlet("/LifeCycleServlet")
+public class LifeCycleServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public LifeCycleServlet() {
+        super();
+        System.out.println("lifecycle 객체 생성");
+        // TODO Auto-generated constructor stub
+    }
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    	resp.setContentType("text/html;charset=UTF-8");
+    	PrintWriter out = resp.getWriter();
+    	out.println("<html>");
+    	out.print("<head>");
+    	out.println("<title>post 테스트 </title>");
+    	out.println("</head>");
+    	out.print("<body>");
+    	out.println("<form method='post' action='LifeCycleServlet'>");
+    	out.println("이름 입력 : <input type='text' name='name'>");
+    	out.println("<input type='submit' value='전송'>");
+    	out.println("</form>");
+    	out.println("</body>");
+    }
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    	resp.setContentType("text/html;charset=UTF-8");
+    	req.setCharacterEncoding("utf-8");
+		PrintWriter out = resp.getWriter();
+		String name = req.getParameter("name");
+		out.println("<h1> post 로 부터 "+name+" 이름을 입력 받음");
+	}
+    
+}
