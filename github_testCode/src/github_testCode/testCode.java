@@ -4,27 +4,30 @@ import java.util.Scanner;
 
 public class testCode {
 	public static void main(String[] args) {
-
-		String name[] = { "¹®Ã¶¿ì", "±è¸í¼·", "±èÀÎ¼·" };
+		int a = 1; int b = 2;
+		int total =0;
+		System.out.println(a>b?"ë§žë‹¤":"ì•„ë‹ˆë‹¤");
+		
+		String name[] = { "ï¿½ï¿½Ã¶ï¿½ï¿½", "ï¿½ï¿½ï¿½", "ï¿½ï¿½ï¿½Î¼ï¿½" };
 		int score[] = new int[3];
 		Scanner scan = new Scanner(System.in);
 
 		while (true) {
-			System.out.println("´ÙÀ½Áß ¿øÇÏ´Â Ãâ·Â °á°ú¸¦ ÀÛ¼ºÇÏ¼¼¿ä.\n 1. »õ·Î¿î Á¡¼ö ÀÔ·Â\n 2. Æò±ÕÃâ·Â\n 3. Á¾·á");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.\n 1. ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½\n 2. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n 3. ï¿½ï¿½ï¿½ï¿½");
 			int select = scan.nextInt();
 			if(select==3) {
 				break;
 			}
 			switch (select) {
 			case 1:
-				System.out.println("Á¡¼ö ÀÔ·Â Ã¢ÀÔ´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ Ã¢ï¿½Ô´Ï´ï¿½.");
 				for (int i = 0; i < name.length; i++) {
-					System.out.println(name[i]+"´ÔÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+					System.out.println(name[i]+"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.");
 					score[i]=scan.nextInt();
 				}
 				break;
 			case 2:
-				System.out.println("Æò±Õ Á¡¼ö´Â : " + (score[0]+score[1]+score[2])/3+"ÀÔ´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ : " + (score[0]+score[1]+score[2])/3+"ï¿½Ô´Ï´ï¿½.");
 				break;
 			default :
 				break;
