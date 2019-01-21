@@ -46,7 +46,8 @@ public class frontServlet extends HttpServlet {
 		}
 		System.out.println(lotto);
 		req.setAttribute("lotto", lotto);
-		RequestDispatcher requestDispatcher = req.getRequestDispatcher("/next");
+		//servlet /next jsp -> /jsp/forward.jsp
+		RequestDispatcher requestDispatcher = req.getRequestDispatcher("/jsp/forward.jsp");
 		requestDispatcher.forward(req, resp);
 		
 		
