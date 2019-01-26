@@ -1,0 +1,48 @@
+package examples;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class jstlElTest
+ */
+@WebServlet("/jstlElTest")
+public class jstlElTest extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public jstlElTest() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		PrintWriter out = response.getWriter();
+		response.setContentType("text/html;charset=utf-8");
+		response.setCharacterEncoding("utf-8");
+//		response.setCharacterEncoding("UTF-8");
+		request.setCharacterEncoding("UTF-8");
+		out.println("<head>");
+		out.println("<title>jstl,el 활용</title>");
+		out.println("</head>");
+		out.println("<body>");
+		out.println("<form action='jsp/jspElTest.jsp'>");
+		out.println("<input type='radio' value='교수' name='Classification'>교수<br>");
+		out.println("<input type='radio' value='학생' name='Classification'>학생<br>");
+		out.print("<input type='submit' value='전송'");
+		out.println("</form>");
+		out.println("</body>");
+	}
+
+}
