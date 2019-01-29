@@ -5,7 +5,36 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-01-25T18:40:04Z</updated>
+  <updated>2019-01-29T08:05:58Z</updated>
+  <entry>
+    <title>This Week in Spring - January 29th, 2019</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/01/29/this-week-in-spring-january-29th-2019" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-01-29:3552</id>
+    <updated>2019-01-29T08:05:58Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Can you believe we&amp;rsquo;re already staring down February?? I&amp;rsquo;m still shaking off the vacation feels from the holiday break. I&amp;rsquo;m at the airport, SFO, a few minutes after midnite in PST, waiting to board for my flight to Houston, a connection en route to Charlotte, North Carolina, for the epic SpringOne Tour event - the first of a brand new year! I look forward to seeing y&amp;rsquo;all there!&lt;/p&gt;
+&lt;p&gt;Anyway, we&amp;rsquo;ve got tons to get to so let&amp;rsquo;s!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/25/spring-tools-4-1-1-released"&gt;Spring Tools 4.1.1 released&lt;/a&gt; - this new release is packed with tons of features, don&amp;rsquo;t miss it!&lt;/li&gt;
+  &lt;li&gt;LISTEN: in this latest installment of my podcast, &lt;a href="https://spring.io/blog/2019/01/25/a-bootiful-podcast-an-interview-with-spring-boot-engineer-madhura-bhave"&gt;&lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I interview Spring Boot legend Madhura Bhave&lt;/a&gt;. Don&amp;rsquo;t miss it!&lt;/li&gt;
+  &lt;li&gt;WATCH: In last week&amp;rsquo;s installment of &lt;em&gt;Spring Tips&lt;/em&gt; I look at &lt;a href="https://spring.io/blog/2019/01/23/spring-tips-hedging-client-requests-with-the-reactive-webclient-and-a-service-registry"&gt;hedging client requests with the reactive &lt;code&gt;WebClient&lt;/code&gt; and a service registry&lt;/a&gt; as supported by Spring Cloud&amp;rsquo;s &lt;code&gt;DiscoveryClient&lt;/code&gt; abstraction.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/24/spring-io-platform-cairo-sr7"&gt;Spring IO Platform Cairo-SR7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/24/spring-io-platform-brussels-sr16"&gt;Spring IO Platform Brussels-SR16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/23/spring-cloud-greenwich-release-is-now-available"&gt;Spring Cloud Greenwich.RELEASE is now available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://content.pivotal.io/pivotal-blog/new-tools-from-pivotal-ibm-pave-the-way-for-java-ee-websphere-apps-to-move-to-cloud-foundry-and-kubernetes"&gt;New Tools from Pivotal, IBM Pave the Way for Java EE WebSphere Apps to Move to Cloud Foundry and Kubernetes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.codecentric.de/en/2019/01/securing-spring-boot-admin-actuator-endpoints-keycloak/"&gt;Securing Spring Boot Admin &amp;amp; Actuator Endpoints with Keycloak&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This looks pretty interesting: Fetch only the needed data from the database &lt;a href="https://twitter.com/SpringData/status/1089568324080545792"&gt;via Spring Data Projections (DTOs) and enrich the result via virtual properties&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The NewStack has a nice post on &lt;a href="https://cloud.google.com/blog/products/application-development/announcing-spring-cloud-gcp-1-1-deepening-ties-pivotals-spring-framework"&gt;Spring Cloud GCP 1.1 - check it out!&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Cloud Foundry foundation directory Abby Kearns &lt;a href="http://vmblog.com/archive/2019/01/25/cloud-foundry-foundation-2019-predictions-rapid-cloud-adoption-will-lead-to-increased-market-consolidation.aspx#.XE_-x89KiL5"&gt;predicts trends for 2019&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://junit.org/junit5/docs/5.4.0-RC1/release-notes/"&gt;JUnit 5.4 RC1 is now available. Please kick the tires and give us feedback before 5.4 GA! 5.4 RC1 also includes &lt;code&gt;@RegisterExtension&lt;/code&gt; ordering, &lt;code&gt;null&lt;/code&gt; and empty argument sources for &lt;code&gt;@ParameterizedTest&lt;/code&gt; methods, &lt;code&gt;@TempDir&lt;/code&gt; field injection&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;I love this series of posts introducing &lt;a href="https://t.co/N6Oquu3Cbu?ssr=true"&gt;Kubernetes for Spring developers &lt;/a&gt; by the legendary Kubernetes &lt;a href="https://twitter.com/pczarkowski"&gt;community member Paul Czarkowski &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;the Software Engineering Daily podcast has a great episode on &lt;a href="https://softwareengineeringdaily.com/2019/01/22/rsocket-reactive-streaming-service-networking-with-ryland-degnan/"&gt;RSocket, the reactive streaming service networking protocol, with Ryland Degnan&lt;/a&gt;. Spring Framework 5.2 is intended to integrate RSocket, as well.&lt;/li&gt;
+  &lt;li&gt;Here&amp;rsquo;s an interesting podcast episode from The New Stack on &lt;a href="https://twitter.com/cloudfoundry/status/1087822407950249984"&gt;people using Cloud Foundry at scale&lt;/a&gt; - check it out.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tools 4.1.1 released</title>
     <link rel="alternate" href="https://spring.io/blog/2019/01/25/spring-tools-4-1-1-released" />
@@ -1554,19 +1583,5 @@ class ServiceBusProducer implements Ordered {&#xD;
 &lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.1.2.RELEASE"&gt;over 60 fixes, improvements and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.1.2.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Boot 2.0.8 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/11/spring-boot-2-0-8-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Madhura Bhave</name>
-    </author>
-    <id>tag:spring.io,2019-01-11:3531</id>
-    <updated>2019-01-11T22:23:49Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot 2.0.8 has been released and is is now available from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.0.8.RELEASE"&gt;35 fixes, improvements and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
-&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.0.8.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
